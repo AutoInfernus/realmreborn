@@ -1,0 +1,79 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    color: #E0E0E0;
+    background-image: url('textures/ancient-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center; /* Ensures text alignment across the page */
+}
+
+header {
+    background-color: #1C1C1C;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 4px solid #D9A441;
+    background-image: url('textures/header-texture.jpg');
+    background-size: cover;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-image: url('textures/nav-texture.jpg');
+    background-size: cover;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #D9A441;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1C1C1C;
+    border-bottom: 6px double #D9A441;
+    background-image: url('textures/hero-texture.jpg');
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.container {
+    max-width: 800px; /* Limits width to keep content structured */
+    margin: 20px auto; /* Centers the container */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #D9A441;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Centers text inside containers */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1C1C1C;
+    border-top: 4px solid #D9A441;
+    font-weight: bold;
+    background-image: url('textures/footer-texture.jpg');
+    background-size: cover;
+}
